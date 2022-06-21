@@ -1,3 +1,3 @@
 #!/bin/bash
 
-clang-tidy testcase.c -checks='*mpi*' -- $(mpicc --showme:compile) > output.txt
+clang-tidy testcase.c -checks='*mpi*' -- -I/usr/lib/x86_64-linux-gnu/mpich/include/ > output.txt
