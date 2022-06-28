@@ -37,7 +37,7 @@ def parse_command_line_args():
     )
 
     parser.add_argument('IN_DIR')
-    parser.add_argument('TOOL', choices=['MUST', 'ITAC', 'MPI-Checker', 'PARCOACH'])
+    parser.add_argument('TOOL', choices=['MUST', 'ITAC', 'MPI-Checker', 'PARCOACH', 'CIVL-1.21_5476'])
     parser.add_argument('--outfile', default="results.json")
 
 
